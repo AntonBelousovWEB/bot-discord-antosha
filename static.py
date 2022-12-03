@@ -1477,6 +1477,4 @@ with open('.env', 'r') as file:
     except ValueError:
         pass
 
-TOKEN_API = os.environ['TOKEN_API']
-
-bot.run(TOKEN_API)
+bot.run()
